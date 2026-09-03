@@ -209,15 +209,3 @@ A summary row at the top of the dashboard for an instant health check:
 | [`Zepto Inventory & Pricing Analysis Dashboard.png`](https://github.com/SarkarMita/Zepto-Inventory-Pricing-Analysis-SQL-Power-BI/blob/main/Zepto%20Inventory%20%26%20Pricing%20Analysis%20Dashboard.png) | Preview image of the finished dashboard |
 
 ---
-
-## 🚀 How to Use
-
-1. Clone or download this repository.
-2. To explore the SQL analysis: run `Zepto SQL Solved.sql` in PostgreSQL (or any compatible SQL client) against the raw `Zepto.csv` dataset.
-3. To explore the dashboard: open `zepto.pbit` in Power BI Desktop and connect it to your own copy of the cleaned dataset when prompted.
-
----
-
-## 📌 Limitations
-
-This is **catalog/listing data, not sales/transaction data** — there's no units-sold or order history in the source dataset. Anywhere "revenue" is mentioned in this project, it's an **estimated proxy** (discounted price × available quantity), not real sales figures. With actual order-level data, the natural next step would be building a true sales performance view on top of this same catalog data.
