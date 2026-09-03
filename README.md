@@ -1,6 +1,5 @@
 # Zepto Inventory & Pricing Analysis — SQL + Power BI Project
-
-![Dashboard Screenshot]([dashboard_screenshot.png](https://github.com/SarkarMita/Zepto-Inventory-Pricing-Analysis-SQL-Power-BI/blob/main/Zepto%20Inventory%20%26%20Pricing%20Analysis%20Dashboard.png))
+![dashboard_screenshot.png](https://github.com/SarkarMita/Zepto-Inventory-Pricing-Analysis-SQL-Power-BI/blob/main/Zepto%20Inventory%20%26%20Pricing%20Analysis%20Dashboard.png](dashboard_screenshot.png)
 
 An end-to-end data analysis project on a product catalog dataset from **Zepto** (a quick-commerce grocery delivery platform). The project starts with data cleaning and exploratory analysis in **PostgreSQL**, and ends with an interactive **Power BI dashboard** built on top of the cleaned data — covering pricing, discounting behavior, and inventory/stock health.
 
