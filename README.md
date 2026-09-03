@@ -205,15 +205,3 @@ A summary row at the top of the dashboard for an instant health check:
 | [`dashboard_screenshot.png`](dashboard_screenshot.png) | Preview image of the finished dashboard |
 
 ---
-
-## 🚀 How to Use
-
-1. Clone or download this repository.
-2. To explore the SQL analysis: run `Zepto_SQL_Solved.sql` in PostgreSQL (or any compatible SQL client) against the raw Zepto dataset.
-3. To explore the dashboard: open `zepto.pbit` in Power BI Desktop and connect it to your own copy of the cleaned dataset when prompted.
-
----
-
-## 📌 Limitations
-
-This is **catalog/listing data, not sales/transaction data** — there's no units-sold or order history in the source dataset. Anywhere "revenue" is mentioned in this project, it's an **estimated proxy** (discounted price × available quantity), not real sales figures. With actual order-level data, the natural next step would be building a true sales performance view on top of this same catalog data.
